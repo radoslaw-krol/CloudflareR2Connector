@@ -7,6 +7,7 @@ You need to have a access key and access id - read this on how to set it up: htt
 From my experience keep default names of keys in .env otherwise you might experience a bug where boto3 cant establish connection even if provided keys are correct.
 
 access_key_id
+
 access_key_secret
 
 More on boto3 in CF R2 and default names here: https://developers.cloudflare.com/r2/examples/aws/boto3/
